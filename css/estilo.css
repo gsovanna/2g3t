@@ -1,5 +1,11 @@
 body {
-    background-color: darkkhaki;
+    background-color: brown;
+}
+.entrada{
+    width: 48px;
+    background-color: gray;
+    border: none;
+    text-align: center;
 }
 .calc_simples {
     background-color: darkmagenta;

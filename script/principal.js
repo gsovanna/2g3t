@@ -14,9 +14,14 @@ eq2grau = (a,b,c) => {
 }
 let a = "";
 let b = "";
+let c = "";
+let sa= "+";
+let sb= "+";
+let sc= "+";
 let op = "";
 let valor = "";
 let tem_ponto = false;
+let desligada = false;
 function zerar(){
     if(deligada) return;
     a="";
@@ -71,4 +76,28 @@ function digitando(tecla){
     }
     valor = valor + tecla;
     mostra_resultado(valor);
+}
+const set_sinal_a = () =>{
+    sa = document.getElementById("sinal_a").value;
+    calculadora2g();
+}
+const set_sinal_b = () =>{
+    sa = document.getElementById("sinal_b").value;
+    calculadora2g();
+}
+const set_sinal_c = () =>{
+    sa = document.getElementById("sinal_c").value;
+    calculadora2g();
+}
+const set_valor_a = () =>{
+    a = document.getElementById("valor_a").value;
+    calculadora2g();
+}
+const set_valor_b = () =>{
+    b = document.getElementById("valor_b").value;
+    calculadora2g();
+}
+const set_valor_c = () =>{
+    c = document.getElementById("valor_c").value;
+    calculadora2g();
 }
