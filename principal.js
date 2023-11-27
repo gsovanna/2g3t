@@ -114,3 +114,22 @@ const set_valor_c = () =>{
 const calcular2g = () =>{
     document.getElementById("raiz") .innerHTML = eq2grau(a,b,c);
 }
+let num = 0;
+function trocar_img(){
+    num++;
+    setTimeout(function(){
+        document.getElementById("nova_imagem").src = "./img/img"+num+".jpg";
+        if(num == 3) num = 0;
+        trocar_imag();
+    },1000);
+}
+let num = 0;
+function trocar_img(){
+    num++;
+    setTimeout(function(){
+        document.getElementById("nova_imagem").src = "./img/img"+num+".jpg";
+        if(num == 3) num = 0;
+        trocar_imag();
+    },1000);
+}
+
